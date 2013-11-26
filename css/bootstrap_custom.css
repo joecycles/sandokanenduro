@@ -128,7 +128,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #185a30;
+  color: #247DBE;
   background-color: #fdfdfd;
 }
 a {
@@ -659,7 +659,7 @@ pre {
   padding: 0 3px 2px;
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
   font-size: 12px;
-  color: #185a30;
+  color: #247DBE;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -715,7 +715,7 @@ legend {
   margin-bottom: 20px;
   font-size: 21px;
   line-height: 40px;
-  color: #185a30;
+  color: #247DBE;
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -1452,7 +1452,7 @@ table {
   line-height: 20px;
   text-align: left;
   vertical-align: top;
-  border-top: 1px solid #185a30;
+  border-top: 1px solid #247DBE;
 }
 .table th {
   font-weight: bold;
@@ -1469,14 +1469,14 @@ table {
   border-top: 0;
 }
 .table tbody + tbody {
-  border-top: 2px solid #185a30;
+  border-top: 2px solid #247DBE;
 }
 .table-condensed th,
 .table-condensed td {
   padding: 4px 5px;
 }
 .table-bordered {
-  border: 1px solid #185a30;
+  border: 1px solid #247DBE;
   border-collapse: separate;
   *border-collapse: collapse;
   border-left: 0;
@@ -1486,7 +1486,7 @@ table {
 }
 .table-bordered th,
 .table-bordered td {
-  border-left: 1px solid #185a30;
+  border-left: 1px solid #247DBE;
 }
 .table-bordered caption + thead tr:first-child th,
 .table-bordered caption + tbody tr:first-child th,
@@ -2202,7 +2202,7 @@ table .span24 {
   clear: both;
   font-weight: normal;
   line-height: 20px;
-  color: #185a30;
+  color: #247DBE;
   white-space: nowrap;
 }
 .dropdown-menu li > a:hover,
@@ -2397,7 +2397,7 @@ button.close {
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
-  color: #185a30;
+  color: #247DBE;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   background-color: #f3f3f3;
   background-image: -moz-linear-gradient(top, #fdfdfd, #e4e4e4);
@@ -2429,7 +2429,7 @@ button.close {
 .btn.active,
 .btn.disabled,
 .btn[disabled] {
-  color: #185a30;
+  color: #247DBE;
   background-color: #e4e4e4;
   *background-color: #d7d7d7;
 }
@@ -2441,7 +2441,7 @@ button.close {
   *margin-left: 0;
 }
 .btn:hover {
-  color: #185a30;
+  color: #247DBE;
   text-decoration: none;
   background-color: #e4e4e4;
   *background-color: #d7d7d7;
@@ -3357,11 +3357,11 @@ input[type="submit"].btn.btn-mini {
   padding-left: 20px;
   padding-right: 20px;
   background-color: #16522c;
-  background-image: -moz-linear-gradient(top, #185a30, #134625);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#185a30), to(#134625));
-  background-image: -webkit-linear-gradient(top, #185a30, #134625);
-  background-image: -o-linear-gradient(top, #185a30, #134625);
-  background-image: linear-gradient(to bottom, #185a30, #134625);
+  background-image: -moz-linear-gradient(top, #247DBE, #134625);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#247DBE), to(#134625));
+  background-image: -webkit-linear-gradient(top, #247DBE, #134625);
+  background-image: -o-linear-gradient(top, #247DBE, #134625);
+  background-image: linear-gradient(to bottom, #247DBE, #134625);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff185a30', endColorstr='#ff134625', GradientType=0);
   border: 1px solid #06160b;
@@ -3386,7 +3386,7 @@ input[type="submit"].btn.btn-mini {
   font-size: 20px;
   font-weight: 200;
   color: #619375;
-  text-shadow: 0 1px 0 #185a30;
+  text-shadow: 0 1px 0 #247DBE;
 }
 .navbar .brand:hover {
   text-decoration: none;
@@ -3405,7 +3405,7 @@ input[type="submit"].btn.btn-mini {
   height: 40px;
   margin: 0 9px;
   border-left: 1px solid #134625;
-  border-right: 1px solid #185a30;
+  border-right: 1px solid #247DBE;
 }
 .navbar .btn,
 .navbar .btn-group {
@@ -3541,7 +3541,7 @@ input[type="submit"].btn.btn-mini {
   padding: 10px 15px 10px;
   color: #619375;
   text-decoration: none;
-  text-shadow: 0 1px 0 #185a30;
+  text-shadow: 0 1px 0 #247DBE;
 }
 .navbar .nav .dropdown-toggle .caret {
   margin-top: 8px;
@@ -3775,7 +3775,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-inverse .navbar-search .search-query:focus,
 .navbar-inverse .navbar-search .search-query.focused {
   padding: 5px 15px;
-  color: #185a30;
+  color: #247DBE;
   text-shadow: 0 1px 0 #fdfdfd;
   background-color: #fdfdfd;
   border: 0;
@@ -4369,7 +4369,7 @@ a.badge:hover {
 }
 .label-inverse,
 .badge-inverse {
-  background-color: #185a30;
+  background-color: #247DBE;
 }
 .label-inverse[href],
 .badge-inverse[href] {
@@ -4686,7 +4686,7 @@ a.badge:hover {
   right: 0;
   bottom: 0;
   padding: 15px;
-  background: #185a30;
+  background: #247DBE;
   background: rgba(0, 0, 0, 0.75);
 }
 .carousel-caption h4,
