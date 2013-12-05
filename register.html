@@ -9,25 +9,57 @@
 <link href='https://docs.google.com/static/forms/client/css/51335468-formview_ltr.css' type='text/css' rel='stylesheet'>
 <style type="text/css">
 body.ss-base-body {
+  font-family: Arial,sans-serif;
   color: #247dbe;
 }
+
 div.ss-form-container, div.ss-header-image {
   background: #c0e9ff url('img/sandokan_form_header.jpg') no-repeat top center;
 }
+
 div.ss-form-container {
-  padding: 226px 15px 10px;
+  padding:  226px 15px 10px;
+  background-color: #f7f7f7;
+  border-color: #0b61a4;
+  border-style: solid;
+  border-width: 1px;
 }
+
 h1 {
   color: #247dbe;
 }
+
+
+
+h1.ss-form-title {
+  background-color: #0b61a4;
+  padding: 15px;
+  margin: -15px -15px 15px;
+  color: #ffffff;
+  text-align: left;
+}
+
 td.ss-scalerow {
   border-color: #247dbe;
 }
+
+div.errorbox-bad {
+  background-color: #f7f7f7;
+}
+
 label.ss-q-help, td.ss-leftlabel, td.ss-rightlabel {
   color: #247dbe;
 }
 div.ss-form-container {
   border: 4px solid #247dbe;
+}
+
+h2.ss-section-title {
+  background-color: transparent;
+}
+div.ss-submit div.ss-form-entry {
+  background: none;
+  border: none;
 }
 
 </style>
@@ -76,7 +108,7 @@ div.ss-form-container {
 <div class="ss-q-help ss-secondary-text" dir="ltr">Pode ser apelido não oficial!</div></label>
 <input type="text" name="entry.660494523" value="" class="ss-q-short" id="entry_660494523" dir="auto" aria-label="Nome e apelido Pode ser apelido não oficial! " aria-required="true" required="" title="">
 <div class="error-message"></div>
-<div class="required-message">This is a required question</div>
+<div class="required-message">Obrigatória</div>
 
 </div></div></div> <div class="ss-form-question errorbox-good">
 <div dir="ltr" class="ss-item ss-item-required ss-date"><div class="ss-form-entry"><label aria-hidden class="ss-q-item-label aria-todo" for="entry_2115987397"><div class="ss-q-title">Data de Nascimento
@@ -84,7 +116,7 @@ div.ss-form-container {
 <span class="ss-required-asterisk">*</span></div>
 <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
 <input type="date" name="entry.2115987397" value="" class="ss-q-date" dir="auto" id="entry_2115987397" aria-label="Data de Nascimento  " aria-required="true" required="">
-<div class="required-message">This is a required question</div>
+<div class="required-message">Obrigatória</div>
 </div></div></div> <div class="ss-form-question errorbox-good">
 <div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry"><label aria-hidden class="ss-q-item-label aria-todo" for="entry_699261268"><div class="ss-q-title">Numero de Identificação Civil
 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
@@ -92,7 +124,7 @@ div.ss-form-container {
 <div class="ss-q-help ss-secondary-text" dir="ltr">Bilhete de Identidade ou Cartão de Cidadão</div></label>
 <input type="text" name="entry.699261268" value="" class="ss-q-short" id="entry_699261268" dir="auto" aria-label="Numero de Identificação Civil Bilhete de Identidade ou Cartão de Cidadão " aria-required="true" required="" title="">
 <div class="error-message"></div>
-<div class="required-message">This is a required question</div>
+<div class="required-message">Obrigatória</div>
 
 </div></div></div> <div class="ss-form-question errorbox-good">
 <div dir="ltr" class="ss-item ss-item-required ss-select"><div class="ss-form-entry"><label aria-hidden class="ss-q-item-label aria-todo" for="entry_1985979836"><div class="ss-q-title">Chip SPORTident
@@ -101,14 +133,14 @@ div.ss-form-container {
 <div class="ss-q-help ss-secondary-text" dir="ltr">Em caso de resposta às opções 1 ou 2 indica o número do chip no campo seguinte.</div></label>
 <select name="entry.1985979836" id="entry_1985979836" aria-label="Chip SPORTident Em caso de resposta às opções 1 ou 2 indica o número do chip no campo seguinte. " aria-required="true" required=""><option value=""></option>
 <option value="Tenho o meu pr&oacute;prio chip">Tenho o meu próprio chip</option> <option value="Levo um emprestado">Levo um emprestado</option> <option value="Preciso de alugar (10&euro; extra)">Preciso de alugar (10€ extra)</option></select>
-<div class="required-message">This is a required question</div>
+<div class="required-message">Obrigatória</div>
 </div></div></div> <div class="ss-form-question errorbox-good">
 <div dir="ltr" class="ss-item  ss-text"><div class="ss-form-entry"><label aria-hidden class="ss-q-item-label aria-todo" for="entry_908865500"><div class="ss-q-title">Número do Chip SPORTident
 </div>
 <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
 <input type="text" name="entry.908865500" value="" class="ss-q-short" id="entry_908865500" dir="auto" aria-label="Número do Chip SPORTident  " title="">
 <div class="error-message"></div>
-<div class="required-message">This is a required question</div>
+<div class="required-message">Obrigatória</div>
 
 </div></div></div> <div class="ss-form-question errorbox-good">
 <div dir="ltr" class="ss-item ss-item-required ss-select"><div class="ss-form-entry"><label aria-hidden class="ss-q-item-label aria-todo" for="entry_143183544"><div class="ss-q-title">T-shirt do evento.
@@ -117,7 +149,7 @@ div.ss-form-container {
 <div class="ss-q-help ss-secondary-text" dir="ltr">Escolha o tamanho</div></label>
 <select name="entry.143183544" id="entry_143183544" aria-label="T-shirt do evento. Escolha o tamanho " aria-required="true" required=""><option value=""></option>
 <option value="Small">Small</option> <option value="Medium">Medium</option> <option value="Large">Large</option> <option value="X-Large">X-Large</option></select>
-<div class="required-message">This is a required question</div>
+<div class="required-message">Obrigatória</div>
 </div></div></div> <div class="ss-form-question errorbox-good">
 <div dir="ltr" class="ss-item ss-item-required ss-select"><div class="ss-form-entry"><label aria-hidden class="ss-q-item-label aria-todo" for="entry_1232352086"><div class="ss-q-title">Pagamento (O valor da inscrição são 20 euros, mais 10 se necessitarem de alugar chip.)
 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
@@ -125,7 +157,7 @@ div.ss-form-container {
 <div class="ss-q-help ss-secondary-text" dir="ltr">NIB: 0038 0030 00926503771 66 (Ricardo Pinto)</div></label>
 <select name="entry.1232352086" id="entry_1232352086" aria-label="Pagamento (O valor da inscrição são 20 euros, mais 10 se necessitarem de alugar chip.) NIB: 0038 0030 00926503771 66 (Ricardo Pinto) " aria-required="true" required=""><option value=""></option>
 <option value="Transfer&ecirc;ncia Banc&aacute;ria">Transferência Bancária</option> <option value="Dinheiro na Joecycles">Dinheiro na Joecycles</option></select>
-<div class="required-message">This is a required question</div>
+<div class="required-message">Obrigatória</div>
 </div></div></div> <div class="ss-form-question errorbox-good">
 <div dir="ltr" class="ss-item  ss-scale"><div class="ss-form-entry"><label aria-hidden class="ss-q-item-label aria-todo" for="entry_1656594781"><div class="ss-q-title">O que acharam da data do evento?
 </div>
@@ -138,7 +170,7 @@ div.ss-form-container {
 <div class="aria-only-help">Select a value from a range of 1,Péssima, to 5,Ótima,.</div></td>
 <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1006991263" value="1" id="group_1006991263_1" role="radio" class="ss-q-radio" aria-label="1"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1006991263" value="2" id="group_1006991263_2" role="radio" class="ss-q-radio" aria-label="2"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1006991263" value="3" id="group_1006991263_3" role="radio" class="ss-q-radio" aria-label="3"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1006991263" value="4" id="group_1006991263_4" role="radio" class="ss-q-radio" aria-label="4"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1006991263" value="5" id="group_1006991263_5" role="radio" class="ss-q-radio" aria-label="5"></div></td>
 <td class="ss-scalerow ss-rightlabel aria-todo" aria-hidden>Ótima</td></tr></table>
-<div class="required-message">This is a required question</div>
+<div class="required-message">Obrigatória</div>
 </div></div></div>
 <input type="hidden" name="draftResponse" value="[]
 ">
