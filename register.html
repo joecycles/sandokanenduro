@@ -95,6 +95,21 @@ div.ss-submit div.ss-form-entry {
 }
 
 </style>
+<link rel="stylesheet" href="css/bootstrap_custom.css">
+<style>
+body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+</style>
+<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/main.css">
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script>window.html5 || document.write('<script src="js/html5shiv.js"><\/script>')</script>
+<![endif]-->
+
 <script type="text/javascript">
         /**
  * @license
@@ -112,7 +127,17 @@ div.ss-submit div.ss-form-entry {
 <link href='/static/forms/client/css/1393690164-mobile_formview_ltr.css' type='text/css' rel='stylesheet' media='screen and (max-device-width: 721px)'>
 
 </head>
-<body dir="ltr" class="ss-base-body"><div itemscope itemtype="http://schema.org/CreativeWork/FormObject"><meta itemprop="name" content="Inscri&ccedil;&atilde;o Sandokan Enduro ">
+<body dir="ltr" class="ss-base-body">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+<div itemscope itemtype="http://schema.org/CreativeWork/FormObject"><meta itemprop="name" content="Inscri&ccedil;&atilde;o Sandokan Enduro ">
 <meta itemprop="description" content="Folha de inscri&ccedil;&atilde;o obrigat&oacute;ria para a participa&ccedil;&atilde;o no enduro. ">
 
 <meta itemprop="url" content="https://docs.google.com/forms/d/1PL6jAnwmEV36SfqnC9AmYHL-5TKzoA1PuaUp-qAA3js/viewform">
@@ -121,7 +146,9 @@ div.ss-submit div.ss-form-entry {
 
 
 
-
+<div class="container">
+<div class="row">
+<div class="span8 center">
 <div class="ss-form-container"><div class="ss-top-of-page">
 
 
@@ -208,9 +235,15 @@ div.ss-submit div.ss-form-entry {
 -
 <a href="http://www.google.com/google-d-s/terms.html">Additional Terms</a></div></div></div></div>
 
-<div id="docs-aria-speakable" class="docs-a11y-ariascreenreader-speakable docs-offscreen" aria-live="assertive" role="region" aria-atomic></div></div>
+<div id="docs-aria-speakable" class="docs-a11y-ariascreenreader-speakable docs-offscreen" aria-live="assertive" role="region" aria-atomic></div>
+</div>
+</div>
+</div>
 
 <script type='text/javascript' src='/static/forms/client/js/2764465439-formviewer_prd.js'></script>
 <script type="text/javascript">H5F.setup(document.getElementById('ss-form'));_initFormViewer(
           "[100,\x22#222222\x22,[]\n]\n");
-      </script></div></body></html>
+      </script></div>
+      
+      
+      </body></html>
